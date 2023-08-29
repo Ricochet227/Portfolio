@@ -1,0 +1,38 @@
+html{
+    background-color: #848484;
+}
+
+
+h1 {
+    display: flex;
+    padding-left: 13px;
+    flex-direction: column;
+    line-height: normal;
+    }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right,orange, red);
+    color:black;
+    height: 75px;
+}
+
+nav ul{
+display: flex;
+justify-content: space-evenly;
+min-width: 400px;
+list-style: none;
+}
+
+nav a {
+    color: aqua;
+    background: linear-gradient(to top, gray, black);
+    border-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif ;
+    text-decoration: dashed;
+} 
