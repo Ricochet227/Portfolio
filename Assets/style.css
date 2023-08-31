@@ -10,7 +10,7 @@
     position: absolute;
     z-index: 1;
     height: 125px;
-    top: 13px;
+    top: 22px;
     left: 32px;
 }
 
@@ -21,6 +21,7 @@
 .nav-list{
     background:linear-gradient(#ffffff42,#ffffff24);
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     padding: 1rem 0;
@@ -32,24 +33,31 @@
     margin-right: 2rem;
 }
 
+.nav-item a:hover{
+    transition: all 200ms ease-in;
+    color: orange;
+    background: linear-gradient( #060606, #560909);
+}
+
 .nav-item a{
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
     text-decoration: none;
-    color: white;
+    color: #a90404;
+    background: linear-gradient(to top, #060606, #560909);
+    border-radius: 8px;
 }
 
 .nav-item:first-child{
+    padding: 5px 10px 10px 37px;
+    font-size: 21px;
+    border-radius: 8px;
     margin-right: auto;
-    margin-left: 2rem;
-    color:white;
-    
+    margin-left: 5rem;
+    color:#a90404;
+    background: linear-gradient(to top, #060606, #560909);
 }
 
-.sidebar{
-    padding:1000px 70px;
-    margin: 45px 14px;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    color: #a90404;
-    background-color: lightblue;
+.port-body{
+    color: white;
 }
