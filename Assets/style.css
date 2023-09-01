@@ -58,39 +58,65 @@
     background: linear-gradient(to top, #060606, #560909);
 }
 
-.content{
+.side{
     display: flex;
-    list-style-type: none;
+    min-height: 100vh;
 }
 
 .sidebar{
-    margin: 5px 5px;
-
-    color: red;
-    list-style-type: none;    
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    max-width: 165px;
+    padding: 2rem 1rem;
     background:linear-gradient(#ffffff42,#ffffff24);
-    border-style: solid;
-    border-width: 3px;
-    border-color:grey;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
-.sidebar-item{
-    list-style-type: none;
+.sidebar .menu {
+    margin: 0 -1rem;
 }
 
-.body{
+.sidebar .menu .menu-item1{
+    margin-bottom: 5rem;
+    justify-content: center;
     display: flex;
-    border-style: solid;
-    border-color:grey;
-    border-radius: 5px;
+    padding: 1em;
     color: #a90404;
-    padding: 10px;
-    background: radial-gradient(#505050,#010101);
-    list-style-type: none;
+    text-decoration: none;
+    font-size: x-large;
 }
 
-.body-item{
+.sidebar .menu .menu-item2{
+
+    justify-content: center;
     display: flex;
+    padding: 1em;
+    color: #a90404;
+    text-decoration: none;
+    font-size: x-large;
 }
 
+.sidebar .menu .menu-item3{
+
+    justify-content: center;
+    display: flex;
+    padding: 1em;
+    color: #a90404;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.content{
+    color:white
+}
+
+.placeholder{
+    height: 500px;
+}
+
+.Horiseon{
+    height: 500px;
+}
