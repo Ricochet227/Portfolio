@@ -64,14 +64,14 @@
 }
 
 .sidebar{
-    height: 100rem;
+    margin-top: 50px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 0;
     max-width: 165px;
-    padding: 2rem 1rem;
-    background:linear-gradient(#ffffff42,#ffffff24);
+    padding: 1rem 3rem;
+    background: radial-gradient( #060606, #560909);
     border-radius: 15px;
 }
 
@@ -80,17 +80,16 @@
 }
 
 .sidebar .menu .menu-item1{
-    margin-bottom: 5rem;
+    margin-bottom: 14rem;
     justify-content: center;
     display: flex;
-    padding: 1em;
     color: #a90404;
     text-decoration: none;
     font-size: x-large;
 }
 
 .sidebar .menu .menu-item2{
-
+    margin-bottom: 45rem;
     justify-content: center;
     display: flex;
     padding: 1em;
@@ -103,20 +102,49 @@
 
     justify-content: center;
     display: flex;
-    padding: 1em;
     color: #a90404;
     text-decoration: none;
     font-size: x-large;
 }
 
 .content{
-    color:white
+    background:linear-gradient(#ffffff42,#ffffff24);
+    margin: 50px 5px 5px 45px;
+    display: flex;
+    flex-direction: column;
+    color: #a90404;
+    border-radius: 15px;
 }
 
-.placeholder{
-    height: 500px;
+.para1{
+    margin: 25px 50px;
+    font-size: 23px;
+}
+
+.para2{
+    margin: 25px 50px;
+    font-size: 23px;
+}
+
+.para3{
+    margin: 25px 50px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.Bcsoon, .Rcsoon, .Scsoon{
+    height: 150px;
 }
 
 .Horiseon{
+    display: flex;
     height: 500px;
 }
+
+.title{
+    color: #a90404;
+    display: flex;
+    justify-content: center;
+}
+
