@@ -21,7 +21,7 @@
 .nav-list{
     background:linear-gradient(#ffffff42,#ffffff24);
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
     padding: 1rem 0;
@@ -117,34 +117,77 @@
 }
 
 .para1{
+    padding: 20px;
+    border-radius: 15px;
+    background:radial-gradient(#515151,#000000);
     margin: 25px 50px;
     font-size: 23px;
 }
 
 .para2{
+    padding: 20px;
+    padding-bottom: 85px;
+    border-radius: 15px;
+    background:radial-gradient(#515151,#000000);
     margin: 25px 50px;
     font-size: 23px;
 }
 
 .para3{
+    padding: 20px;
+    display: flex;
+    border-radius: 15px;
+    background:radial-gradient(#515151,#000000);
     margin: 25px 50px;
     font-size: 23px;
-    display: flex;
     justify-content: center;
 }
 
+.soon{
+    margin-top: 2rem;
+    justify-content: space-between;
+    display: flex;
+    height: 175px;
+}
+
 .Bcsoon, .Rcsoon, .Scsoon{
-    height: 150px;
+    height:200px;
+    border: dotted 10px;
+    border-color: orange;
 }
 
 .Horiseon{
+    width: 18.6rem;
+    border: solid black 10px;
+    border-radius: 10px;
+    margin: auto;
     display: flex;
     height: 500px;
 }
 
 .title{
+    border-radius: 15px;
+    margin: 45px 450px;
+    background: linear-gradient( #060606, #560909);
     color: #a90404;
     display: flex;
     justify-content: center;
 }
 
+.contact{
+    margin: 5px 0px 35px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.email{
+    display: flex;
+    font-size: xx-large;
+}
+
+
+.phone{
+    font-size: xx-large;
+    display: flex;
+
+}

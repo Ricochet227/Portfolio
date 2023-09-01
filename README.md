@@ -1,2 +1,4 @@
-# Portfolio
- My first portfolio repository
+READ ME
+Welcome to my portolio! 
+
+This is a pro
